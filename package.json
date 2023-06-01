@@ -1,25 +1,25 @@
 {
-  "name": "new-opensea",
+  "name": "new--opensea",
   "version": "1.0.0",
   "description": "Opensea is currently the largest NFT marketplace, offering everyone the ability to browse, bid, purchase, and even auction their own creations on the platform. This project aims to mimic the homepage and item pages of Opensea, focusing primarily on recreating the frontend UI and interactions. In contrast to the course project that involves developing a backend RESTful API architecture with encryption and authentication functionalities, this project's main focus is on frontend replication. <br> <br>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "install-server": "cd server && npm install",
-    "start-server": "cd server && node index.js",
+    "start-server": "cd server && node app.js",
     "install-client": "cd client && npm install",
     "build-client": "cd client && npm run build",
     "start-client": "cd client && npm run start"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kailinnnnn/opensea.git"
+    "url": "git+https://github.com/kailinnnnn/opensea--fork.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kailinnnnn/opensea/issues"
+    "url": "https://github.com/kailinnnnn/opensea--fork/issues"
   },
-  "homepage": "https://github.com/kailinnnnn/opensea#readme"
+  "homepage": "https://github.com/kailinnnnn/opensea--fork#readme"
 }
