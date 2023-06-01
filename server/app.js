@@ -5,6 +5,9 @@ const dotenv = require("dotenv");
 dotenv.config();
 const cors = require("cors");
 const collectionRoute = require("./routes").collection;
+const corsOptions = {
+  origin: "https://opensea-client.onrender.com", // frontend URI (ReactJS)
+};
 
 mongoose
   .connect(process.env.DB_CONNECT)
@@ -14,7 +17,7 @@ mongoose
   .catch((e) => {
     console.log(e);
   });
-app.use(cors());
+app.use(cors(corsOptions));
 
 app.use("/", collectionRoute);
 
