@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 const SlideshowComponent = (props) => {
-  const videos = [
-    process.env.PUBLIC_URL + "/media/people.mp4",
-    process.env.PUBLIC_URL + "/media/heart.mp4",
-  ];
+  const videos = ["/media/people.mp4", "/media/heart.mp4"];
   let { currentIndex, setCurrentIndex } = props;
   const [days, setDays] = useState(1);
   const [hours, setHours] = useState(12);

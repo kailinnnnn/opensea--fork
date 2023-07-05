@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const NFTItem = ({ nft, index }) => {
+  console.log(nft);
   const floorPriceHandler = function (nft) {
     let allLastSalePrice = [];
     for (let i = 0; i < nft.childItems.length; i++) {
@@ -15,6 +16,7 @@ const NFTItem = ({ nft, index }) => {
         continue;
       }
     }
+    console.log(floorPrice);
     return floorPrice;
   };
 

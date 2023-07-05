@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/kailinnnnn/opensea--fork/issues"
   },
-  "homepage": "https://github.com/kailinnnnn/opensea--fork#readme"
+  "homepage": "https://github.com/kailinnnnn/opensea--fork#readme",
+  "dependencies": {
+    "webpack": "^5.88.0"
+  }
 }
